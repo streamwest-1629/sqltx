@@ -14,8 +14,8 @@ type (
 )
 
 var (
-	FinallyCommandCommit   = "commit"
-	FinallyCommandRollback = "rollback"
+	FinallyCommandCommit   FinallyCommand = "commit"
+	FinallyCommandRollback FinallyCommand = "rollback"
 )
 
 // エラー内容を出力します．
